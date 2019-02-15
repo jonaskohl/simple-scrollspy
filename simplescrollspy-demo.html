@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html lang="zxx" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Simple ScrollSpy</title>
+  <link rel="stylesheet" href="demo/demo.css">
+</head>
+<body>
+  <header>
+    <span id="brand">Simple ScrollSpy</span>
+    <a href="#sec1" class="active link">Download</a>
+    <a href="#sec2" class="link">Features</a>
+    <a href="#sec3" class="link">Usage</a>
+    <a href="#sec4" class="link">Page structure</a>
+    <a href="#sec5" class="link">Including the library</a>
+    <a href="#sec6" class="link">Customising</a>
+  </header>
+  <main>
+    <section id="sec1">
+      <div class="wrapper">
+        <h1>Simple ScrollSpy</h1>
+        <a href="simplescrollspy.js" class="download-link" download>Download Version 1.0</a>
+        <p>This page is a demo of the Simple ScrollSpy library</p>
+      </div>
+    </section>
+    <section id="sec2">
+      <div class="wrapper">
+        <h1>Features</h1>
+        <p></p>
+      </div>
+    </section>
+    <section id="sec3" class="focus">
+      <div class="wrapper">
+        <h1>Usage</h1>
+      </div>
+    </section>
+    <section id="sec4">
+      <div class="wrapper">
+        <h2>Page structure</h2>
+        <p>First, make sure that your page has a similar structure to this:</p>
+        <pre><code class="html sh xml"><span class="sh-tag">&lt;<span class="sh-name">header</span>&gt;</span>
+  <span class="sh-tag">&lt;<span class="sh-name">a</span> <span class="sh-attr">href</span>=<span class="sh-string">"#sec1"</span> <span class="sh-attr">class</span>=<span class="sh-string">"active link"</span>&gt;</span>Section 1<span class="sh-tag">&lt;/<span class="sh-name">a</span>&gt;</span>
+  <span class="sh-tag">&lt;<span class="sh-name">a</span> <span class="sh-attr">href</span>=<span class="sh-string">"#sec2"</span> <span class="sh-attr">class</span>=<span class="sh-string">"link"</span>&gt;</span>Section 2<span class="sh-tag">&lt;/<span class="sh-name">a</span>&gt;</span>
+  <span class="sh-tag">&lt;<span class="sh-name">a</span> <span class="sh-attr">href</span>=<span class="sh-string">"#sec3"</span> <span class="sh-attr">class</span>=<span class="sh-string">"link"</span>&gt;</span>Section 3<span class="sh-tag">&lt;/<span class="sh-name">a</span>&gt;</span>
+  <span class="sh-tag">&lt;<span class="sh-name">a</span> <span class="sh-attr">href</span>=<span class="sh-string">"#sec4"</span> <span class="sh-attr">class</span>=<span class="sh-string">"link"</span>&gt;</span>Section 4<span class="sh-tag">&lt;/<span class="sh-name">a</span>&gt;</span>
+  <span class="sh-tag">&lt;<span class="sh-name">a</span> <span class="sh-attr">href</span>=<span class="sh-string">"#sec5"</span> <span class="sh-attr">class</span>=<span class="sh-string">"link"</span>&gt;</span>Section 5<span class="sh-tag">&lt;/<span class="sh-name">a</span>&gt;</span>
+<span class="sh-tag">&lt;/<span class="sh-name">header</span>&gt;</span>
+<span class="sh-tag">&lt;<span class="sh-name">main</span>&gt;</span>
+  <span class="sh-tag">&lt;<span class="sh-name">section</span> <span class="sh-attr">id</span>=<span class="sh-string">"sec1"</span>&gt;</span>Section 1<span class="sh-tag">&lt;/<span class="sh-name">section</span>&gt;</span>
+  <span class="sh-tag">&lt;<span class="sh-name">section</span> <span class="sh-attr">id</span>=<span class="sh-string">"sec2"</span>&gt;</span>Section 2<span class="sh-tag">&lt;/<span class="sh-name">section</span>&gt;</span>
+  <span class="sh-tag">&lt;<span class="sh-name">section</span> <span class="sh-attr">id</span>=<span class="sh-string">"sec3"</span>&gt;</span>Section 3<span class="sh-tag">&lt;/<span class="sh-name">section</span>&gt;</span>
+  <span class="sh-tag">&lt;<span class="sh-name">section</span> <span class="sh-attr">id</span>=<span class="sh-string">"sec4"</span>&gt;</span>Section 4<span class="sh-tag">&lt;/<span class="sh-name">section</span>&gt;</span>
+  <span class="sh-tag">&lt;<span class="sh-name">section</span> <span class="sh-attr">id</span>=<span class="sh-string">"sec5"</span>&gt;</span>Section 5<span class="sh-tag">&lt;/<span class="sh-name">section</span>&gt;</span>
+<span class="sh-tag">&lt;/<span class="sh-name">main</span>&gt;</span>
+</code></pre>
+      </div>
+    </section>
+    <section id="sec5">
+      <div class="wrapper">
+        <h2>Including the library</h2>
+        <p>Then include the Simple ScrollSpy library at the end of your <code class="il">&lt;body&gt;</code> tag.</p>
+        <pre><code class="html sh xml"><span class="sh-tag">&lt;<span class="sh-name">script</span> <span class="sh-attr">src</span>=<span class="sh-string">"simplescrollspy.js"</span>&gt;</span><span class="undefined"></span><span class="sh-tag">&lt;/<span class="sh-name">script</span>&gt;</span></code></pre>
+      </div>
+    </section>
+    <section id="sec6">
+      <div class="wrapper">
+        <h1>Customising</h1>
+        <p>
+          If you have different elements, you can edit the selectors and classes in
+          <code class="il">simplescrollspy.js</code> under the <em>SETTINGS</em> section.
+        </p>
+      </div>
+    </section>
+  </main>
+  <script src="simplescrollspy.js"></script>
+  <script src="demo/demo.js"></script>
+</body>
+</html>
